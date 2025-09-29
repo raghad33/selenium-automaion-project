@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.python-version
+pip-wheel-metadata/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Selenium
+screenshots/
+downloads/
+logs/
+*.png
+*.jpg
+*.jpeg
+*.log
+geckodriver.log
+chromedriver.log
+
+# Test results
+test-results/
+reports/
+allure-results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Chrome driver and browsers
+chromedriver.exe
+chromedriver
+geckodriver*
+msedgedriver*
+*.tmp
+
+# Environment variables
+.env
+.secrets
+config.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
